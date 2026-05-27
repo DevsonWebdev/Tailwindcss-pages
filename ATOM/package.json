@@ -1,0 +1,43 @@
+{
+  "name": "Atom",
+  "version": "1.0.0",
+  "description": "An Ai powered website template built with Tailwind CSS, Vite, and JavaScript. It features a modern design and is optimized for performance and responsiveness.",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel ./src/index.html --no-cache --no-source-maps",
+    "watch-tailwind": "tailwindcss -i ./src/tailwind/input.css -o ./src/styles/output.css --watch",
+    "build-tailwind": "tailwindcss -i ./src/tailwind/input.css -o ./src/styles/output.css --minify",
+    "build-all": "npm run build-tailwind && npm run build"
+  },
+  "keywords": [
+    "ai",
+    "website template",
+    "tailwind css",
+    "vite",
+    "javascript",
+    "modern design",
+    "performance",
+    "responsive"
+  ],
+  "author": "Devson Bwambale",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap-icons": "^1.13.1",
+    "jquery": "^4.0.0",
+    "scrollreveal": "^4.0.9",
+    "swiper": "^12.1.2"
+  },
+  "devDependencies": {
+    "@parcel/optimizer-css": "^2.16.4",
+    "@parcel/optimizer-image": "^2.16.4",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.11",
+    "@tailwindcss/typography": "^0.5.19",
+    "autoprefixer": "^10.4.27",
+    "parcel": "^2.16.4",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^3.4.19"
+  }
+}

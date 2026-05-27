@@ -1,0 +1,362 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/output.css">
+    <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../node_modules/aos/dist/aos.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <meta name="description"
+        content="Atom is a powerful AI tool designed to enhance sales and service processes. With its advanced capabilities, it can automate tasks, analyze data, and provide valuable insights to help businesses optimize their operations and improve customer satisfaction. Atom is dedicated to providing flexible and adaptable solutions for businesses. It can be customized to meet the specific needs of different industries and can easily integrate with existing systems, making it a versatile tool for businesses of all sizes. Atom AI features a user-friendly interface that allows users to easily navigate and utilize its powerful features. With its intuitive design, users can quickly access the tools and insights they need to drive their sales and service efforts forward. Atom AI can seamlessly integrate with various platforms and systems, allowing businesses to easily incorporate its capabilities into their existing workflows. Whether it's CRM systems, marketing platforms, or customer support tools, Atom AI can work alongside these systems to enhance their functionality and provide a more comprehensive solution for businesses. Atom AI fosters collaboration among teams by providing a centralized platform for communication and information sharing. With its collaborative features, team members can easily share insights, updates, and feedback, enabling them to work together more effectively and drive better results for their sales and service efforts. It promotes a collaborative environment where teams can leverage the power of AI to enhance their performance and achieve their goals.">
+    <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
+    <script src="../node_modules/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/aos/dist/aos.js"></script>
+    <script src="./js/index.js"></script>
+    <title>Atom | AI</title>
+</head>
+
+<body class="bg-primary font-sans">
+    <nav
+        class="bg-dark py-2 sm:ps-5 sm:pe-10 border-b-2 border-b-white/30  fixed left-0 top-0 max-lg:-top-2 right-0 h-auto z-50">
+
+        <div class="w-full px-2 flex flex-col sm:flex-row justify-center items-center">
+            <!-- Nav brand -->
+            <div class="nav-brand flex justify-between  sm:justify-start items-center flex-1 ">
+                <a href="#" class="text-2xl font-bold no-underline flex justify-start items-center me-[6rem] ">
+                    <img loading="lazy" src="./assets/icons/logo.svg" class="object-cover w-[100px] sm:w-[150px] h-10"
+                        alt="Atom logo">
+                </a>
+                <i role="button"
+                    class=" cursor-pointer  navbar-open  sm:hidden bi bi-list text-accent text-5xl font-audiowide p-1"></i>
+                <i role="button"
+                    class="cursor-pointer  navbar-close hidden  sm:hidden bi bi-x text-accent text-5xl font-audiowide p-1"></i>
+            </div>
+            <!-- Nav links -->
+            <div class="nav-link-cont ms-auto w-full flex-1 max-sm:hidden">
+                <ul
+                    class="max-sm:ps-8 w-full flex flex-col justify-around items-start sm:flex-row sm:justify-end max-sm:space-y-5 sm:space-x-10 sm:items-center marker:list-none ">
+                    <li><a class="font-semibold text-xl  font-monsterate text-white no-underline hover:text-accent transition-colors duration-150 "
+                            href="#home">Home</a></li>
+                    <li><a class="font-semibold text-xl  font-monsterate text-white no-underline hover:text-accent transition-colors duration-150 "
+                            href="#learn">Learn</a></li>
+                    <li><a class="font-semibold text-xl  font-monsterate text-white no-underline hover:text-accent transition-colors duration-150 "
+                            href="#technology">Technology</a>
+                    </li>
+
+                    <li><a class="font-semibold text-xl  font-monsterate text-white no-underline hover:text-accent transition-colors duration-150 "
+                            href="#governance">Why us?</a>
+                    </li>s
+                    <li><a class="font-semibold text-xl  font-monsterate py-2 px-3 rounded-md  text-white no-underline bg-accent hover:bg-dark hover:text-accent hover:border hover:border-accent transition-colors duration-150 "
+                            href="#notavailble">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class=" lg:h-screen w-screen p-10 mt-12 lg:p-10 ">
+        <div class=" w-full relative rounded-3xl flex flex-col justify-center items-center ">
+            <div class=" rounded-3xl px-3 py-1 flex justify-center items-center bg-white shadow-md shadow-dark">
+                <div class="tri-img-cont  flex justify-center items-center">
+                    <img data-aos="fade-right" src="https://randomuser.me/api/portraits/women/90.jpg"
+                        alt="Random profile image " class="rounded-full border-2  border-accent size-10">
+                    <img data-aos="fade-right" data-aos-delay="200" src="https://randomuser.me/api/portraits/men/40.jpg"
+                        alt="Random profile image " class="rounded-full border-2  border-accent size-10 -m-2">
+                    <img data-aos="fade-right" data-aos-delay="400"
+                        src="https://randomuser.me/api/portraits/women/3.jpg" alt="Random profile image "
+                        class="rounded-full border-2  border-accent size-10 -m-1">
+                </div>
+                <div class="text-con align-middle ms-3">
+                    <p class="text-dark font-semibold text-xl">
+                        1k+ joined
+                    </p>
+                </div>
+            </div>
+            <div class="main-text mt-4  flex flex-col justify-around items-center">
+                <h1 data-aos="zoom-in" data-aos-duration="1000"
+                    class="font-orbt text-6xl lg:leading-10 l text-center font-bold text-dark space-y-2">
+                    <span>Elevate your Sales,</span> <br>
+                    <span data-aos="fade-up" data-aos-delay="1200" data-aos-duration="300"
+                        class="text-5xl mt-3 ">Services and success.</span>
+                </h1>
+                <button type="button" data-aos="fade-up" data-aos-delay="1500" data-aos-duration="400"
+                    class="bg-dark hover:bg-accent/70 text-white font-semibold rounded-md mt-5 py-2 px-4">
+                    Schedule a demo
+                </button>
+            </div>
+        </div>
+    </header>
+    <main class="mx-5">
+        <section id="learn"
+            class="py-10 px-5 lg:h-screen w-screen flex flex-col lg:flex-row justify-center items-center relative">
+            <img src="./assets/ai-img.webp"
+                class="rounded-lg w-full reveal  lg:w-[70%]  object-cover shadow-lg shadow-dark lg:absolute lg:-top-[20rem]"
+                alt="Atom image">
+            <div class="mt-4 lg:absolute lg:bottom-10 lg:right-0 lg:left-0">
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-x-5 lg:ms-10 px-10">
+                    <div class="grid grid-cols-1 md:grid-cols-3 content-center items-center">
+                        <i class="bi reveal bi-list-task text-[5rem] text-accent m-1"></i>
+                        <div class="text-start col-span-2">
+                            <h4 class="text-xl text-dark font-bold font-orbt">Multi-task</h4>
+                            <p class="leading-5 font-sans text-lg text-slate-900">The world's leading multi-tasking Ai
+                                that
+                                automises any
+                                tasks from tagging</p>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 content-center items-center">
+                        <i class="bi reveal bi-speedometer2 text-[5rem] text-accent m-1"></i>
+                        <div class="text-start col-span-2">
+                            <h4 class="text-xl text-dark font-bold font-orbt ">Effective</h4>
+                            <p class="leading-5 font-sans text-lg text-slate-900">The world's leading multi-tasking Ai
+                                that
+                                automises any
+                                tasks from tagging</p>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 content-center items-center">
+                        <i class="bi reveal bi-lightning-charge text-[5rem] text-accent m-1"></i>
+                        <div class="text-start col-span-2">
+                            <h4 class="text-xl text-dark font-bold font-orbt">Powerful</h4>
+                            <p class="leading-5 font-sans text-lg text-slate-900">The world's leading multi-tasking Ai
+                                that
+                                automises any
+                                tasks from tagging</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="technology" class="py-10">
+            <h2 class="text-center text-5xl flex flex-col justify-center items-center  ">
+                <span data-aos="fade-up" data-aos-duration="1000"
+                    class="bg-white text-dark text-xl rounded-3xl shadow shadow-dark px-8 py-2 font-bold font-sans">Technology</span>
+                <span class="mt-3 reveal font-orbt">Lead your AI transformation</span>
+            </h2>
+            <div class=" grid grid-cols-1 lg:grid-cols-2 gap-x-4 mt-8">
+                <div class=" px-4 swiper w-full scrollbar-swiper">
+
+                    <div class="swiper-wrapper h-[70vh] lg:max-h-[500px] w-full"
+                        style="box-shadow:inset 0px 10px 10px rgb(255,255,255, 0.8) ">
+                        <div class=" swiper-slide h-auto px-10 py-5 mx-5 w-full rounded-lg bg-primary ">
+                            <h4 class="text-xl font-bold text-dark font-orbt">AI-Powered Sales and Service</h4>
+                            <p class="leading-5 mt-2 text-lg font-sans text-slate-900">Atom AI is a powerful AI tool
+                                designed to enhance sales and service processes. With its advanced capabilities, it can
+                                automate tasks, analyze data, and provide valuable insights to help businesses optimize
+                                their
+                                operations and improve customer satisfaction.</p>
+                        </div>
+                        <div class=" swiper-slide h-auto px-10 py-5 mx-5 w-full bg-dark/50 text-white rounded-lg  ">
+                            <h4 class="text-xl font-bold text-white font-orbt">Flexibility and business adaptability
+                            </h4>
+                            <p class="leading-5 mt-2 text-lg font-sans text-white">
+                                Atom is dedicated to providing flexible and adaptable solutions for businesses. It can
+                                be
+                                customized to meet the specific needs of different industries and can easily integrate
+                                with
+                                existing systems, making it a versatile tool for businesses of all sizes.
+                            </p>
+                        </div>
+                        <div class=" swiper-slide h-auto px-10 py-5 mx-5 w-full rounded-lg bg-primary ">
+                            <h4 class="text-xl font-bold text-dark font-orbt">User-Friendly Interface</h4>
+                            <p class="leading-5 mt-2 text-lg font-sans text-slate-900">
+                                Atom AI features a user-friendly interface that allows users to easily navigate and
+                                utilize
+                                its powerful features. With its intuitive design, users can quickly access the tools and
+                                insights they need to drive their sales and service efforts forward.
+                            </p>
+
+                        </div>
+
+                        <div class=" swiper-slide h-auto px-10 py-5 mx-5 w-full rounded-lg bg-dark/50 ">
+                            <h4 class="text-xl font-bold text-white font-orbt">Integration</h4>
+                            <p class="leading-5 mt-2 text-lg font-sans text-white">
+                                Atom AI can seamlessly integrate with various platforms and systems, allowing businesses
+                                to
+                                easily incorporate its capabilities into their existing workflows. Whether it's CRM
+                                systems,
+                                marketing platforms, or customer support tools, Atom AI can work alongside these systems
+                                to
+                                enhance their functionality and provide a more comprehensive solution for businesses.
+                            </p>
+
+                        </div>
+                        <div class=" swiper-slide h-auto px-10 py-5 mx-5 w-full rounded-lg bg-primary ">
+                            <h4 class="text-xl font-bold text-dark font-orbt">Collaboration</h4>
+                            <p class="leading-5 mt-2 text-lg font-sans text-slate-900">
+                                Atom AI fosters collaboration among teams by providing a centralized platform for
+                                communication and information sharing. With its collaborative features, team members can
+                                easily share insights, updates, and feedback, enabling them to work together more
+                                effectively and drive better results for their sales and service efforts.
+                                It promotes a collaborative environment where teams can leverage the power of AI to
+                                enhance
+                                their performance and achieve their goals.
+                            </p>
+
+                        </div>
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>
+                <div class="rounded-xl max-sm:mt-4 bg-zinc-300 p-10 flex justify-center items-center relative">
+                    <img src="./assets/icons/ms-outlook-.svg" alt="Outlook icon"
+                        class="absolute top-20 left-20 rounded-sm size-16 blur-sm z-10">
+                    <img src="./assets/icons/whatsapp.svg" alt="whatsapp icon"
+                        class="absolute bottom-20 right-20 blur-sm rounded-sm size-16 z-10 ">
+
+                    <div class=" w-full  overflow-hidden shadow shadow-dark  z-20 rounded-3xl">
+                        <ul class="w-full p-3 space-y-2 marker:list-item ">
+                            <li data-aos="fade-down" data-aos-duration="800"
+                                class=" shadow-sm  shadow-dark  rounded-xl w-full flex justify-between items-center p-1">
+
+                                <div class="flex justify-start">
+                                    <img src="https://randomuser.me/api/portraits/women/90.jpg" alt=""
+                                        class="img-holder  object-top  rounded-md size-14">
+
+                                    <div class="ms-2 align-top">
+                                        <h4 class="text-md font-sans font-bold">Devson</h4>
+                                        <p class="leading-5 text-md font-semibold font-sans">Nice to meet
+                                            you here!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col  items-center justify-self-end pe-5">
+                                    <p class="text-sm mb-2 font-orbt">10:30</p>
+                                    <div class="rounded-full size-5 flex justify-center items-center bg-blue-600"><span
+                                            class="text-white">3</span>
+                                    </div>
+                                </div>
+
+
+
+                            </li>
+                            <li data-aos="zoom-in" data-aos-duration="500" data-aos-delay="200"
+                                class=" shadow-sm  shadow-dark  rounded-xl w-full flex justify-between items-center p-1">
+
+                                <div class="flex justify-start">
+                                    <img src="https://randomuser.me/api/portraits/men/40.jpg" alt=""
+                                        class="img-holder  object-top  rounded-md size-14">
+
+                                    <div class="ms-2 align-top">
+                                        <h4 class="text-md font-sans font-bold">Devson</h4>
+                                        <p class="leading-5 text-md font-semibold font-sans">I hope to here fro you
+                                            soon.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col  items-center justify-self-end pe-5">
+                                    <p class="text-sm mb-2 font-orbt">12:20</p>
+                                    <div class="rounded-full size-5 flex justify-center items-center bg-blue-600"><span
+                                            class="text-white">7</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400"
+                                class=" shadow-sm  shadow-dark  rounded-xl w-full flex justify-between items-center p-1">
+                                <div class="flex justify-start">
+                                    <img src="https://randomuser.me/api/portraits/women/3.jpg" alt=""
+                                        class="img-holder  object-top  rounded-md size-14">
+
+                                    <div class="ms-2 align-top">
+                                        <h4 class="text-md font-sans font-bold">Mitcheal</h4>
+                                        <p class="leading-5 text-md font-semibold font-sans">I am wainting.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col  items-center justify-self-end pe-5">
+                                    <p class="text-sm mb-2 font-orbt">11:50</p>
+                                    <div class="rounded-full size-5 flex justify-center items-center bg-blue-600"><span
+                                            class="text-white">2</span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li data-aos="zoom-in" data-aos-duration="500" data-aos-delay="600"
+                                class="blur-sm shadow-sm  shadow-dark  rounded-xl w-full flex justify-between items-center p-1">
+
+                                <div class="flex justify-start">
+                                    <img src="https://randomuser.me/api/portraits/men/40.jpg" alt=""
+                                        class="img-holder  object-top  rounded-md size-14">
+
+                                    <div class="ms-2 align-top">
+                                        <h4 class="text-md font-sans font-bold">Kenny</h4>
+                                        <p class="leading-5 bg-slate-300 text-md font-semibold font-sans p-1 w-full">
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col  items-center justify-self-end pe-5">
+                                    <p class="text-sm mb-2 font-orbt w-full p-1 bg-slate-300"></p>
+                                    <div class="rounded-full size-5 flex  bg-slate-300 justify-center items-center p-1">
+                                        <span class="text-white "></span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="800"
+                                class=" blur-md shadow-sm  shadow-dark  rounded-xl w-full flex justify-between items-center p-1">
+
+                                <div class="flex justify-start">
+                                    <img src="https://randomuser.me/api/portraits/women/90.jpg" alt=""
+                                        class="img-holder  object-top  rounded-md size-14">
+
+                                    <div class="ms-2 align-top">
+                                        <h4 class="text-md font-sans font-bold">Devson</h4>
+                                        <p class="leading-5 text-md font-semibold font-sans">Nice to meet
+                                            you here!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col  items-center justify-self-end pe-5">
+                                    <p class="text-sm mb-2 font-orbt">10:30</p>
+                                    <div class="rounded-full size-5 flex justify-center items-center bg-blue-600"><span
+                                            class="text-white">3</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="governance" class="py-10 lg:mx-10 lg:h-[80vh] rounded-xl"
+            style="background: url(./assets/bluelights-bg.jpg); background-position: center; background-repeat: no-repeat;">
+            <h2 class="text-center text-5xl flex flex-col justify-center items-center  ">
+                <span data-aos="zoom-in" data-aos-duration="500"
+                    class="bg-white/60 text-dark text-xl rounded-3xl shadow shadow-dark px-8 py-2 font-bold font-sans">Governace</span>
+                <span data-aos="fade-up" data-aos-duration="500" data-aos-delay="200"
+                    class="mt-3 font-orbt text-5xl text-white">Reliable, Safe, <br> and validated</span>
+            </h2>
+
+            <div class="flex max-md:flex-col justify-around items-center">
+
+                <div data-aos="fade-left" data-aos-duration="500" data-aos-delay="100"
+                    class="rounded-2xl mt-3 w-60 p-10 border-2 border-white/80 text-center">
+                    <i class="bi reveal bi-repeat text-white text-5xl"></i>
+                    <p class="text-5xl text-white">99%</p>
+                    <h4 class="leading-5 text-accent  text-xl  font-orbt">System update</h4>
+                </div>
+                <div data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300"
+                    class="rounded-2xl mt-3 w-60 p-10 border-2 border-white/80 text-center">
+                    <i class="bi reveal bi-people text-white text-5xl"></i>
+                    <p class="text-5xl text-white">250+</p>
+                    <h4 class="leading-5 text-accent  text-xl  font-orbt">Global business</h4>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="500" data-aos-delay="500"
+                    class="rounded-2xl mt-3 w-60 p-10 border-2 border-white/80 text-center">
+                    <i class="bi reveal bi-chat text-white text-5xl"></i>
+                    <p class="text-5xl text-white">95%</p>
+                    <h4 class="leading-5 text-accent  text-xl  font-orbt">Inreased conversation</h4>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer class="flex justify-center items-center mt-5 bg-dark/90 ">
+        <p class="p-3 text-lg text-white">Atom All rights reserved &COPY;<span class="year"></span></p>
+    </footer>
+</body>
+
+</html>

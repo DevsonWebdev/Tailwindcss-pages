@@ -1,0 +1,496 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devson | Portifolio</title>
+    <link rel="stylesheet" href="./styles/custom.css">
+    <link rel="stylesheet" href="../node_modules/glightbox/dist/css/glightbox.min.css">
+    <link rel="stylesheet" href="../node_modules/aos/dist/aos.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="shortcut icon" href="./assets/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicons/favicon-96x96.png">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <meta name="description"
+        content="This is a portfolio website showcasing my work and skills I have as web developer. It features a clean and modern design, highlighting projects, experience, and contact information. The website is built using HTML, CSS,JavaScript,Jquery, and is optimized for performance and responsiveness. Visitors can explore the developer's portfolio, learn about my background, and get in touch for potential collaborations or job opportunities.">
+    <script src="../node_modules/aos/dist/aos.js"></script>
+    <script src="../node_modules/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="../node_modules/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script defer type="module" src="./js/index.js"></script>
+</head>
+
+<body class="bg-primary scroll-smooth">
+    <nav
+        class="bg-dark py-2 sm:ps-5 sm:pe-10 border-b-2 border-b-white/30  fixed left-0 top-0 max-lg:-top-2 right-0 h-auto z-50">
+
+        <div class="w-full px-2 flex flex-col sm:flex-row justify-center items-center">
+            <!-- Nav brand -->
+            <div class="nav-brand flex justify-between  sm:justify-start items-center flex-1 ">
+                <a href="#" class="text-2xl font-bold no-underline flex justify-start items-center me-[6rem] ">
+                    <img loading="lazy" src="./assets/images/logo.png" class="object-cover w-[100px] sm:w-[150px] h-10"
+                        alt="">
+                </a>
+                <i role="button"
+                    class=" cursor-pointer  navbar-open  sm:hidden bi bi-list text-accent text-5xl font-audiowide p-1"></i>
+                <i role="button"
+                    class="cursor-pointer  navbar-close hidden  sm:hidden bi bi-x text-accent text-5xl font-audiowide p-1"></i>
+            </div>
+            <!-- Nav links -->
+            <div class="nav-link-cont ms-auto w-full flex-1 max-sm:hidden">
+                <ul
+                    class="max-sm:ps-8 w-full flex flex-col justify-around items-start sm:flex-row sm:justify-end max-sm:space-y-5 sm:space-x-10 sm:items-center marker:list-none ">
+                    <li><a class="font-semibold text-xl  font-monsterate text-white no-underline hover:text-accent transition-colors duration-150 "
+                            href="#">Home</a></li>
+                    <li><a class="font-semibold text-xl  font-monsterate text-white no-underline hover:text-accent transition-colors duration-150 "
+                            href="#about">About</a>
+                    <li><a class="font-semibold text-xl  font-monsterate text-white no-underline hover:text-accent transition-colors duration-150 "
+                            href="#services">Services</a>
+                    </li>
+                    </li>
+                    <li><a class="font-semibold text-xl  font-monsterate text-white no-underline hover:text-accent transition-colors duration-150 "
+                            href="#projects">Projects</a>
+                    </li>
+                    <li><a class="font-semibold text-xl  font-monsterate text-white no-underline hover:text-accent transition-colors duration-150 "
+                            href="#conatct">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header
+        class="py-16  bg-dark grid grid-cols-1 lg:grid-cols-2 gap-5 items-center justify-items-center sm:mt-10 sm:h-screen z-10">
+        <div class="px-3 lg:px-14 text-container text-center lg:text-start ">
+            <h1 data-aos="fade-down" class="text-5xl max-sm:text-3xl text-accent font-audiowide font-bold max-sm:mt-5">
+                Dveson Bwambale K</h1>
+            <h2 data-aos="zoom-in" data-aos-delay="400"
+                class="text-4xl max-sm:text-2xl my-5 font-monsterate font-semibold text-white">Fullstack Website
+                Developer</h2>
+
+            <p data-aos="fade-up" data-aos-delay="600" class="leading-8 text-2xl  text-primary font-mono font-semibold">
+                I build responseive user appealing frontend of websites and hight performant backend of web aplications
+                using the latest technologies for better user and developer experience.
+            </p>
+            <button type="button"
+                class="bg-accent reveal text-lg font-semibold font-monsterate py-2 px-4 shadow shadow-violet-600/50  text-white  rounded-md my-3 transition-all  duration-200 hover:text-dark hover:bg-primary/90 scale-105 hover:shadow-xl hover:shadow-violet-600/40">Get
+                in
+                Touch</button>
+        </div>
+        <div class="img-cont relative w-full h-full flex flex-col justify-center items-center ">
+            <div class="blob  max-md:hidden max-md:-z-10  z-10 p-5 bg-teal-600  absolute top-5 left-5 size-[3rem]">
+            </div>
+            <div class="blob max-md:hidden max-md:-z-10  z-10 p-5 bg-primary/50 absolute top-5 right-6   size-[5rem]">
+            </div>
+            <div
+                class="blob  max-md:hidden max-md:-z-10 z-10 p-5 bg-emerald-700 absolute  bottom-5 right-5  size-[3rem]">
+            </div>
+            <div
+                class="blob max-md:hidden max-md:-z-10  z-10 p-5 bg-violet-700 absolute -bottom-10 left-8  size-[5rem]">
+            </div>
+            <img loading="lazy" src="./assets/images/Devson.png" data-aos="zoom-in" class=" object-cover sm:size-[25rem] rounded-full object-top border-2 border-accent/60  z-10 max-sm:h-[15rem] max-sm:rounded-lg max-sm:w-full
+            " alt="Devson Bwambale">
+            <div class="w-full flex justify-around items-center py-3 ">
+                <a href="#"
+                    class="no-underline reveal bg-primary text-accent flex-shrink-0 flex-grow-0 rounded-full size-14 z-20 flex justify-center items-center hover:text-primary hover:bg-dark hover:shadow-lg hover:shadow-accent/90 ">
+                    <i class="bi bi-linkedin text-4xl   text-inherit"></i>
+                </a>
+                <a href="#"
+                    class="no-underline reveal bg-primary text-accent flex-shrink-0 flex-grow-0 rounded-full size-14 z-20 flex justify-center items-center  hover:text-primary hover:bg-dark hover:shadow-lg hover:shadow-accent/90">
+                    <i class="bi bi-github text-4xl   text-inherit"></i>
+                </a>
+
+                <a href="#"
+                    class="no-underline reveal bg-primary text-accent flex-shrink-0 flex-grow-0 rounded-full size-14 z-20 flex justify-center items-center  hover:text-primary hover:bg-dark hover:shadow-lg hover:shadow-accent/90">
+                    <i class="bi bi-twitter-x text-4xl   text-inherit"></i>
+                </a>
+
+                <a href="#"
+                    class="no-underline reveal bg-primary text-accent flex-shrink-0 flex-grow-0 rounded-full size-14 z-20 flex justify-center items-center  hover:text-primary hover:bg-dark hover:shadow-lg hover:shadow-accent/90">
+                    <i class="bi bi-instagram text-4xl   text-inherit"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- SERVICES -->
+        <section id="services" class="py-5 px-10 ">
+            <div class="text-cont text-center py-2">
+                <h2 data-aos="fade-down" class="text-dark text-5xl pb-2 font-semibold font-audiowide">Services</h2>
+                <p data-aos-delay="400" data-aos="fade-up"
+                    class="leading-8 text-2xl  text-dark font-monsterate font-semibold">
+                    I provide the best services to my clients to meet their needs and requirements. I am committed to
+                    delivering high-quality work and ensuring client satisfaction.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4 gap-5">
+                <div data-aos="fade-right"
+                    class="card bg-dark text-center shadow-lg shadow-accent/90 rounded-lg py-4 px-2">
+                    <i class="bi text-[4rem] reveal text-primary bi-code">
+                    </i>
+                    <h4 class="text-3xl font-bold font-audiowide text-accent"> Web development</h4>
+                    <p class="leading-8 text-lg  text-primary font-mono font-semibold">
+                        I develop high-quality websites that are visually appealing, user-friendly, and optimized for
+                        performance. I
+                        am committed to delivering exceptional results and ensuring client satisfaction.
+                    </p>
+                </div>
+                <div data-aos="zoom-in"
+                    class="card bg-dark text-center shadow-lg shadow-accent/90 rounded-lg py-4 px-2">
+                    <i class="bi text-[3rem] text-primary bi-pencil">
+                    </i>
+                    <h4 class="text-3xl font-bold font-audiowide text-accent"> Web design</h4>
+                    <p class="leading-8 text-lg  text-primary font-mono font-semibold">
+                        I design visually stunning and user-friendly websites that are tailored to meet the unique needs
+                        and preferences of my clients. I am dedicated to creating exceptional designs that enhance user
+                        experience and drive engagement.
+                    </p>
+                </div>
+                <div data-aos="zoom-out"
+                    class="card bg-dark text-center shadow-lg shadow-accent/90 rounded-lg py-4 px-2">
+                    <i class="bi text-[4rem] reveal text-primary bi-link-45deg">
+
+                    </i>
+                    <h4 class="text-3xl font-bold font-audiowide text-accent">Api development</h4>
+                    <p class="leading-8 text-lg  text-primary font-mono font-semibold">
+                        I build robust and scalable APIs that enable seamless communication between different software
+                        applications. I am committed to delivering high-quality API development services that meet the
+                        unique needs and requirements of my clients, ensuring optimal performance and reliability.
+                    </p>
+                </div>
+                <div data-aos="fade-left"
+                    class="card bg-dark text-center shadow-lg shadow-accent/90 rounded-lg py-4 px-2">
+                    <i class="reaveal bi bi-database text-[4rem] text-primary">
+
+                    </i>
+                    <h4 class="text-3xl font-bold font-audiowide text-accent">Database Modeling</h4>
+                    <p class="leading-8 text-lg  text-primary font-mono font-semibold">
+                        I design and implement efficient and scalable database models that meet the unique needs and
+                        requirements of my clients. I am committed to delivering high-quality database modeling services
+                        that optimize data storage, retrieval, and management, ensuring optimal performance and
+                        reliability.
+                    </p>
+                </div>
+
+                <div data-aos="zoom-in"
+                    class="card md:col-span-2 lg:col-start-2  bg-dark text-center shadow-lg shadow-accent/90 rounded-lg py-4 px-2">
+                    <i class=" bi text-[4rem] reveal text-primary bi-cloud"></i>
+                    <h4 class="text-3xl font-bold font-audiowide text-accent">Web Hosting</h4>
+                    <p class="leading-8 text-lg  text-primary font-mono font-semibold">
+                        I provide reliable and secure web hosting services that ensure optimal performance and uptime
+                        for my clients' websites. I am committed to delivering high-quality web hosting solutions that
+                        meet the unique needs and requirements of my clients, providing them with a seamless online
+                        experience.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+        <!-- ABOUT  -->
+        <section id="about" class="p-5   grid grid-cols-1 lg:grid-cols-3  gap-x-4 sm:px-40">
+            <div class="text-cont text-center py-5 col-span-3">
+                <h2 class="text-dark text-5xl pb-2 font-semibold font-audiowide">About me</h2>
+            </div>
+            <div data-aos="flip-left" class="imag-cont hidden lg:block bg-dark rounded-lg p-2">
+                <h3 class="text-2xl text-center text-primary font-semibold font-audiowide py-2">Profile</h3>
+                <div class="h-auto w-full ">
+                    <img data-aos-delay="200" data-aos="zoom-in" loading="lazy" src="./assets/images/Devson-small.jpg"
+                        alt="Devson's profile image" class="profile size-80  object-cover">
+                </div>
+                <div class="w-full flex justify-around items-center py-3 ">
+                    <a href="#"
+                        class="no-underline bg-primary text-accent flex-shrink-0 flex-grow-0 rounded-full size-12 flex justify-center items-center hover:text-primary hover:bg-dark hover:shadow-lg hover:shadow-accent/90 ">
+                        <i class="reaveal bi bi-linkedin text-2xl   text-inherit"></i>
+                    </a>
+                    <a href="#"
+                        class="no-underline bg-primary text-accent flex-shrink-0 flex-grow-0 rounded-full size-12 flex justify-center items-center  hover:text-primary hover:bg-dark hover:shadow-lg hover:shadow-accent/90">
+                        <i class="reaveal bi bi-github text-2xl   text-inherit"></i>
+                    </a>
+
+                    <a href="#"
+                        class="no-underline bg-primary text-accent flex-shrink-0 flex-grow-0 rounded-full size-12 flex justify-center items-center  hover:text-primary hover:bg-dark hover:shadow-lg hover:shadow-accent/90">
+                        <i class="reaveal bi bi-twitter-x text-2xl   text-inherit"></i>
+                    </a>
+
+                    <a href="#"
+                        class="no-underline bg-primary text-accent flex-shrink-0 flex-grow-0 rounded-full size-12 flex justify-center items-center  hover:text-primary hover:bg-dark hover:shadow-lg hover:shadow-accent/90">
+                        <i class="reaveal bi bi-instagram text-2xl   text-inherit"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="text-cont max-lg:col-start-1 max-lg:col-span-3  lg:col-span-2">
+                <h3 data-aos="fade-down" class="text-2xl text-dark font-semibold font-audiowide py-2">Intoduction</h3>
+                <p data-aos="fade-up"
+                    class="leading-8 max-sm:text-lg text-2xl  text-slate-700 font-monsterate font-semibold">
+                    I am a passionate and skilled full-stack web developer with expertise in HTML, CSS, JavaScript,
+                    and
+                    jQuery. I have a strong foundation in front-end development, creating visually appealing and
+                    responsive websites. Additionally, I am proficient in back-end development, utilizing
+                    technologies
+                    such as Node.js and Express to build robust and scalable web applications. With a keen eye for
+                    detail and a commitment to delivering high-quality work, I strive to create seamless user
+                    experiences and innovative solutions that meet the needs of clients and users alike.
+                </p>
+            </div>
+
+            <div class="skill-cont w-full  max-lg:col-span-3  ">
+                <h3 class="text-2xl text-dark font-semibold font-audiowide py-2">Technical skills</h3>
+                <div class="grid grid-cols-3 gap-4 md:grid-cols-4 content-center items-center">
+                    <img loading="lazy" src="./assets/icons/html-5-svgrepo-com.svg"
+                        class="size-20 reveal  p-3 bg-primary shadow shadow-dark/50 rounded-lg " alt="html5">
+                    <img loading="lazy" src="./assets/icons/css-3-svgrepo-com.svg"
+                        class="size-20 reveal  p-3 bg-primary shadow shadow-dark/50 rounded-lg " alt="CSS3">
+                    <img loading="lazy" src="./assets/icons/sass-svgrepo-com.svg"
+                        class="size-20 reveal  p-3 bg-primary shadow shadow-dark/50 rounded-lg " alt="sass">
+                    <img loading="lazy" src="./assets/icons/bootstrap-fill-svgrepo-com.svg"
+                        class="size-20 reveal  p-3 bg-primary shadow shadow-dark/50 rounded-lg " alt="bootstrap">
+                    <img loading="lazy" src="./assets/icons/js-svgrepo-com.svg"
+                        class="size-20 reveal  p-3 bg-primary shadow shadow-dark/50 rounded-lg " alt="Javascript">
+                    <img loading="lazy" src="./assets/icons/jquery-svgrepo-com.svg"
+                        class="size-20 reveal  p-3 bg-primary shadow shadow-dark/50 rounded-lg " alt="jquery">
+                    <img loading="lazy" src="./assets/icons/react-svgrepo-com.svg"
+                        class="size-20 reveal  p-3 bg-primary shadow shadow-dark/50 rounded-lg " alt="reactjs">
+                    <img loading="lazy" src="./assets/icons/tailwind-svgrepo-com.svg"
+                        class="size-20 reveal  p-3 bg-primary shadow shadow-dark/50 rounded-lg " alt="Tailwind">
+                    <img loading="lazy" src="./assets/icons/node-js-svgrepo-com.svg"
+                        class="size-20 reveal  p-3 bg-primary shadow shadow-dark/50 rounded-lg " alt="nodejs">
+                    <img loading="lazy" src="./assets/icons/typescript.svg"
+                        class="size-20 reveal bg-primary shadow shadow-dark/50 ro  unded-lg " alt="expressjs">
+                    <img loading="lazy" src="./assets/icons/express-js.svg"
+                        class="size-20 reveal bg-primary shadow shadow-dark/50 rounded-lg " alt="expressjs">
+                    <img loading="lazy" src="./assets/icons/mongo-svgrepo-com.svg"
+                        class="size-20 reveal  p-3 bg-primary shadow shadow-dark/50 rounded-lg " alt="Mongodb">
+                </div>
+            </div>
+            <div class="tech-cont w-full   max-lg:col-span-3 ">
+                <h3 class="text-2xl text-dark font-semibold font-audiowide py-2">Tools and technologies</h3>
+                <div class="grid grid-cols-3 gap-4  md:grid-cols-4 content-center items-center">
+
+                    <img loading="lazy" src="./assets/icons/npm-svgrepo-com.svg"
+                        class="size-20 reveal  p-3 bg-primary shadow shadow-dark/50 rounded-lg " alt="Tailwind">
+
+                    <img loading="lazy" src="./assets/icons/visual-studio-code.svg"
+                        class="size-20 reveal  p-3 bg-primary shadow shadow-dark/50 rounded-lg " alt="vs code">
+
+                    <img loading="lazy" src="./assets/icons/photoshop.svg"
+                        class="size-20 reveal  p-3 bg-primary shadow shadow-dark/50 rounded-lg " alt="photo shop">
+
+                    <img loading="lazy" src="./assets/icons/canva.svg"
+                        class="size-20 reveal  p-3 bg-primary shadow shadow-dark/50 rounded-lg " alt="canva">
+
+                    <img loading="lazy" src="./assets/icons/figma.svg"
+                        class="size-20 reveal  p-3 bg-primary shadow shadow-dark/50 rounded-lg " alt="figma">
+
+                    <img loading="lazy" src="./assets/icons/git.svg"
+                        class="size-20 reveal  p-3 bg-primary shadow shadow-dark/50 rounded-lg " alt="git">
+
+                    <img loading="lazy" src="./assets/icons/github.svg"
+                        class="size-20 reveal  p-3 bg-primary shadow shadow-dark/50 rounded-lg " alt="github">
+                </div>
+            </div>
+            <div class="softskils-cont w-full  max-lg:col-span-3  ">
+                <h3 class="text-2xl text-dark font-semibold font-audiowide py-2">Soft skills</h3>
+                <div class="grid grid-cols-1 gap-4 gap-y-6 sm:grid-cols-2 content-center items-center">
+
+                    <div class="space-y-4 reveal text-center">
+                        <p class="leading-5 font-monsterate font-semibold text-md mb-2">Teamwork</p>
+                        <i class="text-3xl  bi bi-people text-accent"></i>
+                    </div>
+
+                    <div class="space-y-4 reveal text-center">
+                        <p class="leading-5 font-monsterate font-semibold text-md mb-2">Creativity</p>
+                        <i class="text-3xl  bi bi-lightning text-accent"></i>
+                    </div>
+                    <div class="space-y-4 reveal text-center">
+                        <p class="leading-5 font-monsterate font-semibold text-md mb-2">Communication</p>
+                        <i class="text-3xl  bi bi-chat-dots text-accent"></i>
+                    </div>
+                    <div class="space-y-4 reveal text-center">
+                        <p class="leading-5 font-monsterate font-semibold text-md mb-2">Leadership</p>
+                        <i class="text-3xl  bi bi-person-badge text-accent"></i>
+                    </div>
+                    <div class="space-y-4 reveal text-center">
+                        <p class="leading-5 font-monsterate font-semibold text-md mb-2">Adaptability</p>
+                        <i class="text-3xl  bi bi-arrow-repeat text-accent"></i>
+                    </div>
+                    <div class="space-y-4 reveal text-center">
+                        <p class="leading-5 font-monsterate font-semibold text-md mb-2">Innovation</p>
+                        <i class="text-3xl  bi bi-lightbulb text-accent"></i>
+                    </div>
+                    <div class="space-y-4 reveal text-center col-span-2">
+                        <p class="leading-5 font-monsterate font-semibold text-md mb-2">Problem Solving</p>
+                        <i class="text-3xl  bi bi-puzzle text-accent"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- PROJECTS -->
+        <section id="projects" class="p-5 sm:ps-20">
+            <div class="text-cont text-center py-5 sm:col-span-3">
+                <h2 class="text-dark text-5xl pb-2 font-semibold font-audiowide">Projects</h2>
+                <p class="leading-8 text-2xl  text-dark font-monsterate font-semibold">
+                    These are some of a few projects that I have built recently
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-2 py-20">
+
+                <div data-aos="fade-up" class="card p-5 rounded-lg w-full  bg-gray-700 max-md:-m-0 lg:-mt-10 ">
+                    <div class="flex flex-col justify-start items-start space-y-2">
+                        <a href="./assets/images/projects/erudites-large.jpg" class="glightbox">
+                            <img src="./assets/images/projects/erudites-smaal.jpg"
+                                class="rounded-xl size-[15rem] w-full h-full object-cover" alt="Erudites project image">
+                        </a>
+                        <h4 class="text-2xl text-primary font-audiowide font-bold">Erudites</h4>
+
+                        <div class="w-full flex justify-around items-center">
+                            <button type="button"
+                                class="reveal max-md:text-md max-md:px-2 bg-transparent py-2 px-6 text-primary border-2 border-primary font-lg font-monsterate font-semibold rounded-lg hover:bg-dark hover:border-accent">Live</button>
+                            <button type="button"
+                                class="reveal max-md:text-md max-md:px-2 bg-accent py-2 px-6 text-primary border-md border-accent font-lg font-monsterate font-semibold rounded-lg hover:bg-transparent hover:border-2 hover:border-primary">Code</button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="fade-down" data-aos-delay="200"
+                    class="card p-5 rounded-lg w-full  bg-gray-700 max-md:-m-0   lg:-mb-10">
+                    <div class="flex flex-col justify-start items-start space-y-2">
+                        <a href="./assets/images/projects/flix-small.jpg" class="glightbox">
+                            <img src="./assets/images/projects/flix-small.jpg"
+                                class="rounded-xl size-[15rem] w-full h-full object-cover" alt="flixmax project image">
+                        </a>
+
+                        <h4 class="text-2xl text-primary font-audiowide font-bold">Flixmax</h4>
+
+                        <div class="w-full flex justify-around items-center">
+                            <button type="button"
+                                class="reveal max-md:text-md max-md:px-2 bg-transparent py-2 px-6 text-primary border-2 border-primary font-lg font-monsterate font-semibold rounded-lg hover:bg-dark hover:border-accent">Live</button>
+                            <button type="button"
+                                class="reveal max-md:text-md max-md:px-2 bg-accent py-2 px-6 text-primary border-md border-accent font-lg font-monsterate font-semibold rounded-lg hover:bg-transparent hover:border-2 hover:border-primary">Code</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="400"
+                    class="card p-5 rounded-lg w-full  bg-gray-700 max-md:-m-0 lg:-mt-10 ">
+                    <div class="flex flex-col justify-start items-start space-y-2">
+                        <a href="./assets/images/projects/vera-car-large.jpg" class="glightbox">
+                            <img src="./assets/images/projects/vera-car-large-small.jpg"
+                                class="rounded-xl size-[15rem] w-full h-full object-cover"
+                                alt="Vera-car  project image">
+                        </a>
+
+                        <h4 class="text-2xl text-primary font-audiowide font-bold">Vera-car </h4>
+
+                        <div class="w-full flex justify-around items-center">
+                            <button type="button"
+                                class="reveal max-md:text-md max-md:px-2 bg-transparent py-2
+                                                                                                                     px-6 text-primary border-2 border-primary font-lg font-monsterate font-semibold rounded-lg hover:bg-dark hover:border-accent">Live</button>
+                            <button type="button"
+                                class="reveal max-md:text-md max-md:px-2 bg-accent py-2 px-6 text-primary border-md border-accent font-lg font-monsterate font-semibold rounded-lg hover:bg-transparent hover:border-2 hover:border-primary">Code</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-down" data-aos-delay="600"
+                    class="card p-5 rounded-lg w-full  bg-gray-700 max-md:-m-0   lg:-mb-10">
+                    <div class="flex flex-col justify-start items-start space-y-2">
+                        <a href="./assets/images/projects/corso-training.jpg" class="glightbox">
+                            <img src="./assets/images/projects/corso-training-small.jpg"
+                                class="rounded-xl size-[15rem] w-full h-full object-cover"
+                                alt="Cosor Training project image">
+                        </a>
+                        <h4 class="text-2xl text-primary font-audiowide font-bold">Cosor Training</h4>
+
+                        <div class="w-full flex justify-around items-center">
+                            <button type="button"
+                                class="reveal max-md:text-md max-md:px-2 bg-transparent py-2
+                                                                                                                     px-6 text-primary border-2 border-primary font-lg font-monsterate font-semibold rounded-lg hover:bg-dark hover:border-accent">Live</button>
+                            <button type="button"
+                                class="reveal max-md:text-md max-md:px-2 bg-accent py-2 px-6 text-primary border-md border-accent font-lg font-monsterate font-semibold rounded-lg hover:bg-transparent hover:border-2 hover:border-primary">Code</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="800"
+                    class="card p-5 rounded-lg w-full  bg-gray-700 max-md:-m-0  lg:-mt-10">
+                    <div class="flex flex-col justify-start items-start space-y-2">
+                        <a href="./assets/images/projects/vera-software.jpg" class="glightbox"><img
+                                src="./assets/images/projects/vera-software-small.jpg"
+                                class="rounded-xl size-[15rem] w-full h-full object-cover"
+                                alt="Vera-tech project image"></a>
+
+                        <h4 class="text-2xl text-primary font-audiowide font-bold">Vera-tech</h4>
+
+                        <div class="w-full flex justify-around items-center">
+                            <button type="button"
+                                class="reveal max-md:text-md max-md:px-2 bg-transparent py-2
+                                                                                                     px-6 text-primary border-2 border-primary font-lg font-monsterate font-semibold rounded-lg hover:bg-dark hover:border-accent">Live</button>
+                            <button type="button"
+                                class="reveal max-md:text-md max-md:px-2 bg-accent py-2 px-6 text-primary border-md border-accent font-lg font-monsterate font-semibold rounded-lg hover:bg-transparent hover:border-2 hover:border-primary">Code</button>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- CONTACT -->
+        <section class="p-10 bg-dark">
+            <div class="grid grid-cols-1 lg:grid-cols-3 ">
+                <form action="" name="contact" netlify data-netlify-honeypot="bot-field" class="lg:col-start-2">
+                    <p class="hidden">
+                        <label>Don’t fill this out if you're human: <input name="bot-field"></label>
+                    </p>
+                    <fieldset >
+                        <legend class="text-primary font-audiowide font-semibold text-3xl ">Contact</legend>
+                        <div class="mb-2 w-full">
+                            <label class="text-lg text-primary font-mono font-bold mb-2 " for="name">Name</label> <br>
+                            <input class="w-full bg-slate-700 rounded-md text-primary text-md p-2"
+                                placeholder="Enter your full name" type="text" name="name" id="name">
+                        </div>
+                        <div class="mb-2 w-full">
+                            <label class="text-lg text-primary font-mono font-bold mb-2 " for="email">Email</label> <br>
+                            <input class="w-full bg-slate-700 rounded-md text-primary text-md p-2"
+                                placeholder="Enter your email" type="text" name="email" id="email">
+                        </div>
+                        <div class="mb-2 w-full">
+                            <label class="text-lg text-primary font-mono font-bold mb-2 " for="subjects">Subject</label>
+                            <br>
+                            <select class="w-full bg-slate-700 rounded-md text-primary text-md p-2" name="subjects"
+                                id="subjects">
+                                <option value="Hire">Hiring</option>
+                                <option value="Inquiring">Question</option>
+                                <option value="collaboration">Collaboration</option>
+                            </select>
+                        </div>
+                        <div class="mb-2 w-full">
+                            <label class="text-lg text-primary font-mono font-bold mb-2 " for="message">Message</label>
+                            <br>
+                            <textarea
+                                class="w-full bg-slate-700 text-md text-primary border-4 rounded-md border-accent p-3"
+                                type="text" name="message" id="message" placeholder="Type message here"></textarea>
+                        </div>
+                        <div class="mb-2 w-full">
+                            <button type="submit"
+                                class="bg-accent w-full text-primary text-xl font-semibold font-monsterate py-2 px-10 rounded-xl">Submit</button>
+                        </div>
+                    </fieldset>
+                </form>
+                <div class=" text-center flex flex-col justify-center items-center space-y-5 py-10 lg:col-start-3">
+                    <h4
+                        class="text-5xl text-primary font-bold font-audiowide size-20 rounded-full bg-accent p-1 flex jus-center items-center">
+                        Or</h4>
+                    <a class="leading-5 text-2xl mt-3 text-primary hover:text-accent font-mono font-semibold no-underline"
+                        href="mailto:devsonwebdev@gmail.com">devsonwebdev@gmail.com</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark py-2 px-10 text-center">
+        <h6 class="text-md text-primary font-bold font-monsterate">Devson Bwambale All rights reserved &COPY; <span
+                class="year"></span>
+        </h6>
+    </footer>
+</body>
+
+</html>
